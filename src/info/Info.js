@@ -30,36 +30,39 @@ export const info = {
             label: 'github'
         },
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'github', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['- javascript', '- react', '- github', '- html5', '- css3', '- figma'],
         }
     ,
     hobbies: [
         {
             label: 'Jeux vidéos',
-            emoji: '📖'
+            emoji: '🎮'
         },
         {
-            label: 'Films',
-            emoji: '🎥'
+            label: 'Musiques',
+            emoji: '🎸​'
         },
         {
             label: 'Bricoler',
-            emoji: '🌶'
+            emoji: '🛠️​'
+        },
+        {
+            label: 'Cuisiner',
+            emoji: '🥘​​'
         }
     ],
     portfolio: [
         {
-            title: "Project 1",
-            source: "https://github.com/paytonjewell", 
+            title: "Sophie Bluel ~ Architecte d'intérieur",
+            source: "https://github.com/Nei7uj/P6-JS", 
             image: mock1
         },
         {
-            title: "Project 2",
-            source: "https://github.com/paytonjewell",
+            title: "Kasa ~ Location immobilière",
+            source: "https://github.com/Nei7uj/P7-Kasa",
             image: mock2
         },
     ]
