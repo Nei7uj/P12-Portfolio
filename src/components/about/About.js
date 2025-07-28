@@ -11,7 +11,7 @@ export default function About({innerRef}) {
     function aboutMeText() {
         return <>
             
-            <p><span style={{color: info.baseColor}}>A propos de moi <span
+            <p><span style={{color: info.baseColor}}>À propos de moi <span
                 className={Style.green}>~ </span></span>
                 {info.bio}
             </p>

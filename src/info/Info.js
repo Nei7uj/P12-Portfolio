@@ -25,32 +25,36 @@ export const info = {
     ],
     socials: [
         {
-            link: "https://github.com",
+            link: "https://github.com/Nei7uj",
             icon: "fa fa-github",
             label: 'github'
         },
     ],
-    bio: "",
+    bio: "Moi c'est Julien, je suis étudiant en intégrateur web chez OpenClassrooms. Je suis passionné par les jeux vidéo et le monde de la technologie, mais je suis aussi guitariste à mes heures perdues. J'aime aussi cuisiner et bricoler.",
     skills:
         {
-            proficientWith: ['- javascript', '- react', '- github', '- html5', '- css3', '- figma'],
+            proficientWith: ['- javascript', '- react', '- github', '- html5', '- css3', '- sass'],
         }
     ,
     hobbies: [
         {
-            label: 'Jeux vidéos',
+            label: 'Technologie',
+            emoji: '💻'
+        },
+        {
+            label: 'Jeux vidéo',
             emoji: '🎮'
         },
         {
-            label: 'Musiques',
+            label: 'Musique',
             emoji: '🎸​'
         },
         {
-            label: 'Bricoler',
+            label: 'Bricolage',
             emoji: '🛠️​'
         },
         {
-            label: 'Cuisiner',
+            label: 'Cuisine',
             emoji: '🥘​​'
         }
     ],
