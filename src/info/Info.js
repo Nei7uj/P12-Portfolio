@@ -1,6 +1,7 @@
 import self from "../img/self.png"
 import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
+import { Description } from "@mui/icons-material";
 
 
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
@@ -10,7 +11,7 @@ export const info = {
     lastName: "Dille",
     initials: "jd", 
     position: "Intégrateur Web",
-    selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
+    selfPortrait: self,
     gradient: `-webkit-linear-gradient(135deg, ${colors})`,
     baseColor: colors[0],
     miniBio: [
@@ -61,11 +62,13 @@ export const info = {
     portfolio: [
         {
             title: "Sophie Bluel ~ Architecte d'intérieur",
+            description: "Site vitrine pour une architecte d'intérieur, avec un design épuré et moderne réalisé en JavaScript et Swagger pour les API.",
             source: "https://github.com/Nei7uj/P6-JS", 
             image: mock1
         },
         {
             title: "Kasa ~ Location immobilière",
+            description: "Site de location immobilière avec un design moderne et une navigation fluide, réalisé en React.",
             source: "https://github.com/Nei7uj/P7-Kasa",
             image: mock2
         },

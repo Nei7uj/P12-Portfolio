@@ -31,8 +31,6 @@ const links = [
     }
 ]
 
-// This function is used to create a scroll offset to compensate for the navbar
-// when you click on the nav buttons to scroll down.
 const scrollWidthOffset = (el) => {
     const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
     const yOffset = -80; 
